@@ -8,70 +8,118 @@
 
 <body>
     <!--Atributo action serve para executar uma ação, enviar o usuario para outro site web/enviar um E-mail de boas vindas para o usuario/ guardar as informações preenchidas no formulario para um banco de dados ou chamar alguma ação usando o JS-->
-    <form action="">
+    <form action="./boasVindas.html" target="_blank">
 
-        <label for="">Nome:</label>
-        <input type="text" placeholder=" Insira o nome do usuario">
+        <fieldset>
+
+            <legend>Digite o seu Nome:</legend>
+
+            <label for="">Nome:</label>
+            <input type="text" placeholder=" Insira o nome do usuario" required>
+
+        </fieldset>
 
         <!--Type Rádio - 3 opções-->
         <br>
-        <br>
-        <input type="radio" name="radio">
-        <label for="">São Paulo</label> <br>
+        <fieldset>
+            <legend>Selecione onde voce mora:</legend>
+            <br>
+            <input type="radio" name="radio">
+            <label for="">São Paulo</label> <br>
 
-        <input type="radio" name="radio">
-        <label for="">Grande SP</label> <br>
+            <input type="radio" name="radio">
+            <label for="">Grande SP</label> <br>
 
-        <input type="radio" name="radio">
-        <label for="">Campinas</label><br>
+            <input type="radio" name="radio">
+            <label for="">Campinas</label><br>
 
+
+        </fieldset>
         <br>
 
         <!--CHECKBOX-->
-        <input type="checkbox">
-        <label for="">Funk</label>
+        <fieldset>
 
-        <br>
-        <input type="checkbox">
-        <label for="">Pagode</label>
-        <br>
+            <legend>Qual é o seu gosto musical favorito?</legend>
 
-        <input type="checkbox">
-        <label for="">Metal</label>
-        <br>
+            <input type="checkbox">
+            <label for="">Funk</label>
 
-        <input type="checkbox">
-        <label for="">Trap</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Pagode</label>
+            <br>
+
+            <input type="checkbox">
+            <label for="">Metal</label>
+            <br>
+
+            <input type="checkbox">
+            <label for="">Trap</label>
+
+        </fieldset>
         <br>
         <br>
-        0KM<input type="range">100KM
+        <fieldset>
+
+            <legend>Coloque aproximadamente a distancia da sua casa para empresa:</legend>
+
+            0KM<input type="range">100KM
+
+        </fieldset>
         <br>
         <br>
         <!--SELECT-->
 
-        <select name="" id="">
+       <fieldset>
 
-            <option value="Amarelo">Amarelo</option>
-            <option value="Branco">Branco</option>
-            <option value="Vermelho">Vermelho</option>
+<legend>Cor favorita:</legend>
 
-        </select>
+<select name="" id="">
+
+    <option value="Amarelo">Amarelo</option>
+    <option value="Branco">Branco</option>
+    <option value="Vermelho">Vermelho</option>
+
+</select>
+
+       </fieldset>
         <br>
         <br>
         <!--DATALIST-->
-        <input type="text" list="Busca">
+       <fieldset>
 
-        <datalist id="Busca">
+<legend>Sla oq colocar:</legend>
 
-            <option value="São Paulo"></option>
-            <option value="São Caetano"></option>
-            <option value="São Bernado"></option>
-            <option value="São Sebastiao"></option>
+<input type="text" list="Busca">
 
-        </datalist>
+<datalist id="Busca">
+
+    <option value="São Paulo"></option>
+    <option value="São Caetano"></option>
+    <option value="São Bernado"></option>
+    <option value="São Sebastiao"></option>
+
+</datalist>
+
+       </fieldset>
+        <br>
+        <br>
+<fieldset>
+
+    <label for="mensagem">A seguir escrevas os prós e contras de trabalhar conosco.</label>
+    <br>
+    <br>
+    <textarea name="mensagem" rows="6" cols="50" placeholder="Escreva Aqui"></textarea>
+
+</fieldset>
+
+        <br>
+        <br>
+
 
         <!--Valor= Colocar um texto no input quando o valor do atributo type estiver como button-->
-        <input type="button" value="Enviar">
+        <input type="submit" value="Enviar">
 
 
     </form>
