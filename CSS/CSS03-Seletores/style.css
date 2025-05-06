@@ -1,19 +1,30 @@
 /* para sinalizar que eu vou chamar um id o nome deve vir acompanhado no inicio pelo simbolo do hogo da velha// sempre que estiver mexendo com ID comece usando # */
 
+*{
+    margin: 0;
+}
+
+div section{
+    background-color: red;
+}
+
+
 #div1{
 
 background-color: blueviolet;
-
+text-align: center;
 }
 
 #div2{
 
-    background-color: chartreuse;
+    background-color: blueviolet;
 }
 
 h1,h2{
 
-    text-shadow: 1px 1px;
+    text-shadow: 2px 1px;
+
+    text-align: center;
 }
 
 /* para sinalizar que eu vou chamar uma class o nome deve vir acompanhado pelo ponto final */
@@ -21,5 +32,5 @@ h1,h2{
 /* Aplicar o mesmo estilo CSS para variar tags diferentes  */
 .estiloTitulo{
 
-    text-shadow: 5px 5px 5px;
+    text-shadow: 10px 10px 5px;
 }
