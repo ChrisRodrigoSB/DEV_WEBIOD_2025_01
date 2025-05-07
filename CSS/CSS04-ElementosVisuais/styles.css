@@ -1,0 +1,13 @@
+#p1{
+    border-width: 6px;
+    border-color: rgba(124, 24, 20, 0.541);
+    border-style: solid;
+    padding: 10px;
+}
+
+#p2{
+    border-width: 18px;
+    border-color: rgba(176, 106, 241, 0.514);
+    border-style: outset;
+    padding: 4px;
+}
