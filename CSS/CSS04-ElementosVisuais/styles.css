@@ -1,13 +1,40 @@
-#p1{
+#p1 {
     border-width: 6px;
     border-color: rgba(124, 24, 20, 0.541);
     border-style: solid;
     padding: 10px;
+    color: white;
 }
 
-#p2{
+#p2 {
     border-width: 18px;
     border-color: rgba(176, 106, 241, 0.514);
     border-style: outset;
     padding: 4px;
+    color: aliceblue;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+
+    color: aliceblue;
+}
+
+body {
+
+    background-size: 20%;
+    background-position: 100;
+    background-image: url("./james\ webb02.webp");
+    background-attachment: fixed;
+    background-color: rgb(170, 133, 88)
+        /*  */
+
 }
