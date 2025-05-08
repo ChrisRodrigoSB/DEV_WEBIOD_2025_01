@@ -1,16 +1,37 @@
+*{
+    margin: auto;
+    width: 80%;
+}
+
 #div1 {
     border: 1px solid blueviolet;
-    padding: 10px;
-    margin-bottom: 10px;
+    /* padding: 10px;
+    margin-bottom: 10px; */
+padding: 10px;
+/* espaço externo */
+/* margin-bottom: 25px; */
+
+/* margin: 50px 40px 90px 25px;
+formato de cruz  */
+
+/* ORDEM 1TOP 2BOTTOM 3RIGHT 4LEF */
+
+    /* margin: 90px 10%; */
+    /* top (right, bottom) left */
+
+    /* margin: 20px 5% 1.5rem; */
+
+    /* aplicar o mesmo px para os 4 lados  */
+    margin: 125px;
 }
 
 #div2 {
 
     border: 10px solid blue;
-    
+
 }
 
-img{
+img {
     width: 400px;
     height: 400px;
     display: block;

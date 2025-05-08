@@ -1,6 +1,6 @@
 body{
     font-family: monospace;
-    font-size: 700;
+    font-weight: 700;
     background-color: #b3e9f3;
 }
 
@@ -8,5 +8,30 @@ h1
 {
 
     color: #6590d1;
+text-shadow: 3px 3px #48789f;
+text-align: center;
+}
 
+p{
+    text-align: center;
+}
+
+ul{
+    border: 1px solid #48789f;
+    width: 200px;
+    margin: 0 50% 0 42%;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid red;
+
+}
+
+footer{
+    text-align: center;
 }
