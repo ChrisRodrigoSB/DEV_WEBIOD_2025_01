@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <title>CSS06 Float</title>
+</head>
+<body>
+    <div>
+<img id="p1" src="./IMG/KRATOS.webp"  style=" width: 500px; height: 500px; float: left;">
+<p style="border: 2px solid red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quo cum mollitia amet nemo, id natus consequatur unde corrupti ipsam neque, quas ratione delectus veritatis! Maiores suscipit quas cum neque?</p>
+<p style="clear: both;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, aut, rerum commodi unde exercitationem velit placeat vero eum harum repudiandae odit blanditiis aliquid dolorem dignissimos veritatis nulla ipsa beatae obcaecati!</p>
+    </div>
+</body>
+</html>
