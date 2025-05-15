@@ -1,39 +1,101 @@
+*{
+    background-color: antiquewhite;
+    margin: auto;
+    width: 90%;
+}
+
 .Divs {
     border: 2px solid black;
     clear: both;
     height: 500px;
     margin-bottom: 30px;
 
-padding-top: 5%;
-padding-left: 5%;
-padding-right: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #imgSmile {
 
-    height: 300px;
+    height: 500px;
     width: 300px;
     float: left;
-
+    margin-right: 40px;
+    border-radius: 5%;
+    /* transition: width 5s, height 5s, transform 2s; */
 }
 
-#ImgNarutinho{
+#TabelaSmile{
+width: 20%;
+border: 1px solid;
+}
+
+td{
+width: 50%;
+border: 1px solid;
+margin-top: 20px;
+border-radius: 7%;
+border-collapse: 1%;
+}
+
+/* #imgSmile:hover { */
+    /* width: 400px;
+    transform: rotate(18000deg);
+} */
+
+
+#paragrafoSmile:hover {
+    width: 500px;
+}
+
+#ImgNarutinho {
     height: 300px;
     width: 300px;
     float: right;
+    transition: opacity 4s;
 }
 
-#ImgGod{
-height: 400px;
-width: 400px;
+#ImgNarutinho:hover {
+    opacity: 0;
 }
 
-#ImgRd2{
-height: 400px;
-width: 400px;
+#paragrafoNaruto::first-letter {
+    font-size: 25px;
+    color: rgb(214, 64, 182);
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+
 }
 
-#ImgX{
-height: 400px;
-width: 400px;
+
+#ImgGod {
+    height: 400px;
+    width: 400px;
+}
+
+#ImgRd2 {
+    height: 400px;
+    width: 400px;
+    float: right;
+}
+
+#ImgX {
+    height: 400px;
+    width: 400px;
+    margin-left: 13%;
+}
+
+#paragrafoSmile {
+    color: crimson;
+    font-size: 25px;
+    margin-top: 95px;
+}
+
+#paragrafoSmile:hover {
+    color: black;
+    background-color: blue;
+}
+
+.head {
+    background-color: blueviolet;
 }
