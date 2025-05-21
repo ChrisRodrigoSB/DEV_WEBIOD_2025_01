@@ -1,0 +1,14 @@
+#body{
+   background-color: blanchedalmond;
+}
+
+.container{
+    border: 5px solid #FF1493;
+}
+
+.itens{
+    width: 60px;
+    height: 35%;
+    border: 5px solid #8B008B	;
+    font-size: 150%gi;
+}
