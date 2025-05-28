@@ -1,14 +1,19 @@
-#body{
-   background-color: blanchedalmond;
+#body {
+    background-color: blanchedalmond;
 }
 
-.container{
+.container {
     border: 5px solid #FF1493;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 50px 50px 50px 50px;
+    text-align: center;
 }
 
-.itens{
-    width: 60px;
-    height: 35%;
-    border: 5px solid #8B008B	;
-    font-size: 150%gi;
+.itens {
+    /* width: 100px;
+    height: 80%; */
+
+    border: 5px solid #8B008B;
+    font-size: 180%;
 }
