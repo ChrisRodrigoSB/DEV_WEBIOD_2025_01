@@ -62,4 +62,22 @@ let temCracha = true
 console.log(temCamisa);
 console.log(temCracha);
 console.log(temCamisa == true && temCracha == true)
-console.log(temCamisa == true || temCracha == true);//false      ==      true
+console.log(temCamisa == true || temCracha == true); //false      ==      true
+//operador de atribuição 
+var x = 3
+var y = 2
+x = x + y
+//x+=y formato contraido 
+// x = 3 = 2
+console.log(x); 
+//LOGO SERVE PARA MOSTRAR RESULTADOS/MENSAFGENS
+//CLEAR SERVE PARA LIMPAR O CONSOLE E DEIXAR DISPONIVEL PARA NOVAS MENSAGENS  
+
+console.clear
+
+console.log("Está tudo limpo, meu chara");
+console.log("Olá mundo");
+
+console.error("é pra avisar que voce não pode esta aqui")
+
+console.warn("para apresentar uma imagem em amarelo")
