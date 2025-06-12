@@ -1,18 +1,28 @@
-let atividadeEntregue = "true "
-let diaFinalEntregue = 13
-if(atividadeEntregue== true){
-console.log("Parabéns, fera");
-}
-if(diaFinalEntregue == 13){
-console.log('entregou a atividade na data a sua nota é 10');
-}
-else (diaFinalEntregue){
-    console.log('não entregou -2 pontos');
-} 
-else if(atividadeEntregue == false){
-    console.log("vacilou, amigão");
+let atividadeEntregue = true
+let diaFinalEntrega = 19
+let mensagemParabens = 'Parabéns, valeu fera'
+if(atividadeEntregue == true){ // true
+    console.log(mensagemParabens)
+    if(diaFinalEntrega <= 13){
+        console.log("Entregou a atividade na data e sua nota é 10!")
+    }else{
+        console.log("Entregou a atividade fora da data prevista e será retirado dois pontos da nota final")
+    }
+
+}else if(atividadeEntregue == false){ // false
+    console.log("Ops, você ainda não entregou sua atividade")
+}else{ // Resposta alternativa
+    console.log("Você inseriu uma informação invalida")
 }
 
-else{
-    console.log("estamos com um pronlema");
+let nota = 6.9
+// se a nota for igual ou igual ou maior que 7 então o aluno passou na materia 
+// se a nota for menor que 6,9 o aluno vai ficar de recuperação 
+if(nota>=7){
+  console.log("passou na materia")
+}else{
+  console.log("Vai ficar de recuperação")
 }
+let resultado = nota >= 7 ? console.log("passou na materia") : console.log("Vai ficar de recuperação")
+
+console.log(resultado)
